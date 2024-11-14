@@ -15,14 +15,10 @@ Faça login no site do whapi com uma conta WhatsApp Bussiness..
 - **Token de API do WhatsApp** para autenticação.
 
 ## 🛠️ Configuração
-Clone este repositório ou crie um arquivo `whatsapp.ts` com o código fornecido.
+Clone este repositório `SendWhatsMSG`.
 
-Navegue até o diretório do projeto e instale o `axios`, que é necessário para enviar a requisição HTTP.
+#### Navegue até o diretório do projeto e instale-o com `npm install`.
 
-```bash
-npm init -y
-npm install axios
-```
 
 ## 🚀 Como Usar
 Abra o arquivo whatsapp.ts e substitua SEU_TOKEN_AQUI, NUMERO_DO_DESTINATARIO, e SUA_MENSAGEM_AQUI com as informações necessárias:
@@ -40,14 +36,14 @@ const mensagem = 'SUA_MENSAGEM_AQUI';  // Mensagem a ser enviada
 ## Compile o arquivo TypeScript para JavaScript:
 
 ```bash
-npx tsc whatsapp.ts
+npx tsc whatsapp-service.ts
 
 ```
 
 ## Execute o script compilado:
 
 ```bash
-node whatsapp.js
+node whatsapp-service.js
 ```
 
 ## 🧩 Estrutura do Código:
